@@ -1,0 +1,110 @@
+*{
+	box-sizing:border-box;
+}
+
+
+.container{
+	padding: 50px 100px;
+}
+
+.flex-container{
+	display: flex;
+	
+	
+}
+
+.title-container{
+	width:500px;
+}
+.subtitle-container{
+	width:500px;
+}
+
+
+.title{
+	font-size: 50px;
+	margin: 15px 0px;
+	color: hsl(257, 27%, 26%);
+	font-weight: bold;	
+}
+
+.subtitle{
+	color: hsl(257, 27%, 26%);
+    font-size: 15px;
+    max-width: 40ch;
+	
+}
+
+.rating-container{
+	width:500px;
+	background-color: hsl(0, 0%, 75%);
+	padding: 15px;
+	border-radius: 5%;
+    margin:5px;
+	
+	
+}
+
+.flex-rating{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	margin-left:200px;
+	
+	
+	
+}
+
+.rating-text{
+	font-size: 15px;
+	font-weight: bold;	
+	color:hsl(257, 27%, 26%);
+	text-align:left;
+	
+}
+
+.star {
+  color: orange;
+  
+}
+span ~ span {
+    padding-left: 10px;
+}
+
+.stars-container{
+	margin: 0px 30px;
+}
+
+.testimoniale-container{
+	margin: 50px 0px;
+	padding: 30px;
+	border-radius: 5%;
+	max-width: 32ch;
+	background-color: #404062;
+	
+	
+}
+
+.flex-testimoniale{
+	display: flex;
+	justify-content:space-between;
+}
+
+.name-testimoniale{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 0px;
+	color:white;
+	
+}
+.verified-buyer{
+	font-size: 13px;
+	color: hsl(180, 66%, 49%);
+	margin: 0px;
+}
+
+.text-testimoniale{
+	margin-top: 30px;
+	font-size:13px;
+	color:white;
+}
