@@ -1,4 +1,4 @@
-"# HomeSchool1-project" 
+"# HomeSchool-project1" 
 
  Ratings & Reviews: Desktop 1440px, Mobile 375px
     
